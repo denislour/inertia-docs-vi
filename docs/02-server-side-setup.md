@@ -36,7 +36,7 @@ bin/dev
 
 Truy cập `http://localhost:3100/inertia-example` để xem trang Inertia mẫu.
 
-Vậy là xong! Bạn đã setup thành công Inertia trong ứng dụng Rails của mình. Hãy tham khảo hướng dẫn về [tạo pages](/pages) để biết thêm chi tiết.
+Vậy là xong! Bạn đã setup thành công Inertia trong ứng dụng Rails của mình. Hãy tham khảo hướng dẫn về [tạo pages](/docs/07-pages.md) để biết thêm chi tiết.
 
 ## Root Template
 
@@ -64,7 +64,7 @@ Nếu bạn quyết định không sử dụng generator, bạn có thể setup 
 </html>
 ```
 
-Template này nên bao gồm assets của bạn, cũng như phương thức `yield` để render trang Inertia. Phương thức `inertia_headers` được sử dụng để thêm các headers Inertia vào response, điều này cần thiết khi [SSR](/02-server-side-rendering.md) được bật.
+Template này nên bao gồm assets của bạn, cũng như phương thức `yield` để render trang Inertia. Phương thức `inertia_headers` được sử dụng để thêm các headers Inertia vào response, điều này cần thiết khi [SSR](/docs/02-server-side-rendering.md) được bật.
 
 Adapter của Inertia sẽ sử dụng layout inheritance chuẩn của Rails, với `view/layouts/application.html.erb` làm layout mặc định. Nếu bạn muốn sử dụng layout mặc định khác, bạn có thể thay đổi nó bằng cách sử dụng `InertiaRails.configure`.
 
@@ -77,7 +77,7 @@ end
 
 # Tạo Responses
 
-Vậy là bạn đã sẵn sàng ở phía server! Sau khi setup framework [client-side](/03-client-side-setup.md), bạn có thể bắt đầu tạo [pages](/pages.md) Inertia và render chúng thông qua [responses](/responses.md).
+Vậy là bạn đã sẵn sàng ở phía server! Sau khi setup framework [client-side](/docs/03-client-side-setup.md), bạn có thể bắt đầu tạo [pages](/docs/07-pages.md) Inertia và render chúng thông qua [responses](/docs/08-responses.md).
 
 ```ruby
 class EventsController < ApplicationController

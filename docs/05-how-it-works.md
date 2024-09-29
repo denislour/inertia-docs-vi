@@ -12,4 +12,4 @@ Khi Inertia thực hiện một truy cập XHR, server nhận biết đó là m�
 
 **Kết quả cuối cùng là một trải nghiệm single-page mượt mà và hiệu quả. 🎉**
 
-Để hiểu sâu hơn về các chi tiết kỹ thuật và cách Inertia hoạt động bên dưới, bạn có thể tham khảo [trang protocol](/06-the-protocol.md).
+Để hiểu sâu hơn về các chi tiết kỹ thuật và cách Inertia hoạt động bên dưới, bạn có thể tham khảo [trang protocol](/docs/06-the-protocol.md).

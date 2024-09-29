@@ -1,6 +1,6 @@
 # Giao thức
 
-Trang này chứa đặc tả chi tiết về giao thức của Inertia. Hãy đảm bảo đọc trang [cách hoạt động](/05-how-it-works.md) trước để có cái nhìn tổng quan.
+Trang này chứa đặc tả chi tiết về giao thức của Inertia. Hãy đảm bảo đọc trang [cách hoạt động](/docs/05-how-it-works.md) trước để có cái nhìn tổng quan.
 
 ## Responses HTML
 
@@ -41,7 +41,7 @@ Content-Type: text/html; charset=utf-8
 
 Sau khi ứng dụng Inertia đã được khởi động, tất cả các request tiếp theo đến trang web được thực hiện thông qua XHR với tiêu đề `X-Inertia` được đặt thành `true`. Tiêu đề này cho biết rằng request đang được thực hiện bởi Inertia và không phải là một lần truy cập trang full HTML.
 
-Khi máy chủ phát hiện tiêu đề `X-Inertia`, thay vì trả về một tài liệu full HTML, nó trả về một response JSON với một [page object](/06-the-protocol.md#page-object) được mã hóa.
+Khi máy chủ phát hiện tiêu đề `X-Inertia`, thay vì trả về một tài liệu full HTML, nó trả về một response JSON với một [page object](/docs/06-the-protocol.md#page-object) được mã hóa.
 
 ```json
 REQUEST

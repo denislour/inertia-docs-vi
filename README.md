@@ -4,7 +4,7 @@
 
 ## Giới thiệu
 
-Inertia.js là một phương pháp tiên tiến để xây dựng các ứng dụng web truyền thống được điều khiển bởi server, được gọi là "monolith hiện đại". Nó cho phép tạo ra các ứng dụng một trang (SPA) được render hoàn toàn ở phía client, đồng thời loại bỏ độ phức tạp thường gặp trong các SPA hiện đại.
+**Inertia.js** là một phương pháp tiên tiến để xây dựng các ứng dụng web truyền thống được điều khiển bởi server, được gọi là "monolith hiện đại". Nó cho phép tạo ra các ứng dụng một trang (SPA) được render hoàn toàn ở phía client, đồng thời loại bỏ độ phức tạp thường gặp trong các SPA hiện đại.
 
 ## Đặc điểm chính
 
